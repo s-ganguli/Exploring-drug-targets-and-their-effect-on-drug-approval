@@ -19,13 +19,13 @@ uncovered the inverted directionality of 2 out of 3 hypothesized safety features
 
 
 ## Project Steps
-Step 1: Load the datasets in individual notebooks
-Step 2: Change gene/ protein keys to ‘gene symbols’ for JOIN keys
-Step 3: Explore the dataset quantitatively
-Step 4: Explore the dataset visually
-Step 5: Manipulate the dataset as needed
-Step 6: Save intermediate datasets for later analysis
-Step 7: Building and Evaluating Classification Models 
+1. Phase 1 Step 1: Load the datasets in individual notebooks
+2. Phase 1 Step 2: Change gene/ protein keys to ‘gene symbols’ for JOIN keys
+3. Phase 1 Step 3: Explore the dataset quantitatively
+4. Phase 1 Step 4: Explore the dataset visually
+5. Phase 1 Step 5: Manipulate the dataset as needed
+6. Phase 1 Step 6: Save intermediate datasets for later analysis
+7. Phase 2: Building and Evaluating Classification Models 
 
 
 ## Data Sets used
