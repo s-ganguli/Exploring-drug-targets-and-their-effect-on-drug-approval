@@ -12,7 +12,8 @@ Drug development is a resource and time intensive venture requiring decades and 
 methods (wget, direct download). The data collected covered 96% of all currently known human protein coding genes.
 
 We have used google colab with google Drive as file system. The individual datasets were both quantitatively as well as visually explored to identify the need for any
-cleaning/manipulation/new feature generation. Datasets were relatively clean. Post manipulation to generate new features, intermediate data files (not the initial raw data) were saved for further processing. These intermediate files are present in this repo.
+cleaning/manipulation/new feature generation. Datasets were relatively clean. Post manipulation to generate new features, intermediate data files (not the initial raw data) were saved for further processing. These intermediate files are present in this repo  --> <a href="https://github.com/s-ganguli/Exploring-drug-targets-and-their-effect-on-drug-approval/tree/main/Intermediate_Assets"> Intermediate Files</a>
+
 
 At Phase 2, we found target class data to be imbalanced, 4 different approaches were applied to model the imbalance dataset (up/down-sampling, cost-sensitive training, adapt scoring metric). Various machine learning models were compared, GradientBoosting was the best performing classifier showing generalizability on the validation set (0.89). Safety features found to improve the classification AUROC. The top 3 performing classifiers were explored using model agnostic methods such as SHAP. These
 uncovered the inverted directionality of 2 out of 3 hypothesized safety features.13.4% of all genes under investigation are predicted to make it on the market.
